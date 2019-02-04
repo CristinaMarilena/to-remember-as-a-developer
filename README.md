@@ -9,9 +9,30 @@ https://github.com/in28minutes/java-best-practices
 Java Platform
 1 . Why is Java so popular?
 
+Not to be confused with JavaScript, this general-purpose language was designed to be easier to use than C++, which was a notoriously complex language. 90% of the Fortune 500 companies have since used Java to develop desktop apps and website backend systems.
+
+Java is a highly portable language as it must be executed through a cross-platform compatible Java Virtual Machine (JVM).Furthermore, Android apps are also developed using Java since the Android Operating System runs on a Java language environment.
+
+
 2 . What is platform independence?
 
+The meaning of platform independent is that, the java source code can run on all operating systems.
+A program is written in a language which is a human readable language. It may contain words, phrases etc which the machine does not understand. For the source code to be understood by the machine, it needs to be in a language understood by machines, typically a machine-level language. So, here comes the role of a compiler. The compiler converts the high-level language (human language) into a format understood by the machines. Therefore, a compiler is a program that translates the source code for another program from a programming language into executable code.
+This executable code may be a sequence of machine instructions that can be executed by the CPU directly, or it may be an intermediate representation that is interpreted by a virtual machine. This intermediate representation in Java is the Java Byte Code.
+
+Step by step Execution of Java Program:
+
+Whenever, a program is written in JAVA, the javac compiles it.
+The result of the JAVA compiler is the .class file or the bytecode and not the machine native code (unlike C compiler).
+The bytecode generated is a non-executable code and needs an interpreter to execute on a machine. This interpreter is the JVM and thus the Bytecode is executed by the JVM.
+And finally program runs to give the desired output.
+
+
 3 . What is bytecode?
+
+Bytecode is object-oriented programming (OOP) code compiled to run on a virtual machine (VM) instead of a central processing unit (CPU). The VM transforms program code into readable machine language for the CPU because platforms utilize different code interpretation techniques. A VM converts bytecode for platform interoperability, but bytecode is not platform-specific.
+
+Bytecode is in a compiled Java programming language format and has the .class extension executed by Java Virtual Machine (JVM).
 
 4 . Compare JDK vs JVM vs JRE
 
@@ -23,7 +44,18 @@ Java Platform
 Wrapper Classes
 7 . What are Wrapper classes?
 
+ Wrapper class is a class whose object wraps or contains a primitive data types. When we create an object to a wrapper class, it contains a field and in this field, we can store a primitive data types. In other words, we can wrap a primitive value into a wrapper class object.
+
+https://www.geeksforgeeks.org/wrapper-classes-java/
+
 8 . Why do we need Wrapper classes in Java?
+
+They convert primitive data types into objects. Objects are needed if we wish to modify the arguments passed into a method (because primitive types are passed by value).
+The classes in java.util package handles only objects and hence wrapper classes help in this case also.
+Data structures in the Collection framework, such as ArrayList and Vector, store only objects (reference types) and not primitive types.
+An object is needed to support synchronization in multithreading.
+
+https://www.geeksforgeeks.org/primitive-wrapper-classes-are-immutable-in-java/
 
 9 . What are the different ways of creating Wrapper class instances?
 
