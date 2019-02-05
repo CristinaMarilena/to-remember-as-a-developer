@@ -3,6 +3,7 @@ Things you should always know as a professional full stack developer. Good luck!
 
 ## Java
 https://github.com/in28minutes/java-best-practices
+https://dzone.com/articles/14-youtube-channels-you-should-follow-in-2019
 
 ### JAVA IMPORTANT QUESTIONS
 
